@@ -9,7 +9,7 @@ import {faLinkedin, faTwitter,faGithub, faSkype} from '@fortawesome/free-brands-
 const Sidebar = () => (
     <div className="nav-bar">
         <Link className="logo" to="/">
-            <img src={LogoS} alt="logo" />
+            <img className='sub-log' src={LogoS} alt="logo" />
             <img className='sub-logo' src={LogoSubtitle} alt="Ludwig" />
         </Link>
         <nav>

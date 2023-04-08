@@ -9,7 +9,7 @@
 
     .logo{
         display: block;
-        padding: 27px;
+        padding: 25px;
 
         img{
             display: block;
@@ -17,9 +17,15 @@
             width: 50px;
             height: auto;
 
+            &.sub-log{
+                width: 65px;
+                margin-left: 5px;
+                
+            }
             &.sub-logo{
                 width: 130px;
                 height: 75px;
+                padding-top: 0;
             }
         }
     }
