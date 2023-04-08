@@ -97,4 +97,29 @@
             }
         }
     }
+
+    ul{
+        position: absolute;
+        bottom: 30px;
+        width: 100px;
+        display: block;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+        margin: 0;
+
+        li{
+            a{
+                padding:7px 0 ;
+                display: block;
+                font-size: 20px;
+                list-style: 17px;
+
+                &:hover svg{
+                    color: white;
+                
+                }
+            }
+        }
+    }
 }
