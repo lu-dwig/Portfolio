@@ -3,6 +3,7 @@ import AnimatedLetters from "../AnimatedLetters"
 import { useEffect, useState } from 'react'
 import {faAngular, faCss3, faHtml5, faJsSquare,faReact, faPython} from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Loader from 'react-loaders'
 
 
 const About = () =>{
@@ -65,6 +66,7 @@ const About = () =>{
                     </div>
                 </div>
             </div>
+            <Loader type="pacman" />
         </>
     )
 }
