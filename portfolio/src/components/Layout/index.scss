@@ -38,7 +38,9 @@ container{
     animation-delay: 1s;
 }
 
-.about-page{
+.about-page,
+.contact-page
+{
     .text-zone{
         position: absolute;
         left: 15%;
@@ -91,6 +93,7 @@ container{
             min-width: fit-content;
             font-weight: 300;
             animation:pulse 1s;
+            animation: fadeIn 1s 1.7s backwards;
 
             &:nth-of-type(1) {
                 animation-delay: 1.7s;
